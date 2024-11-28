@@ -14,6 +14,7 @@ import saucesAndSoups from './saucesAndSoups.json'
 import spicesAndHerbs from './spicesAndHerbs.json'
 import sweetsAndSnacks from './sweetsAndSnacks.json'
 import beverages from './beverages.json'
+import heb from './heb.json'
 
 const foods = [
   ...poultry,
@@ -32,6 +33,7 @@ const foods = [
   ...spicesAndHerbs,
   ...sweetsAndSnacks,
   ...beverages,
+  ...heb,
 ]
 
 export default foods
